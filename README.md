@@ -32,7 +32,7 @@ This is an official pytorch implementation of the paper BTTrack: Bridge Token Le
 
 
 
-## Install the environment (follow OSTrack)
+## Install the environment (PLZ Follow [OSTrack](https://github.com/botaoye/OSTrack))
 ```
 conda create -n bttrack python=3.8
 conda activate bttrack
@@ -97,7 +97,7 @@ bash xtrain.sh
 
 ## Test and evaluate on benchmarks
 Put the downloaded checkpoints under [./checkpoints/train/bttrack](/checkpoints)
-- Support Eval LaSOT LaSOT_ext GOT-10k TrackingNet UAV123 UAV20L UAV10fps DTB70 UAVDT VisDrone2019 UAVTrack112 TNL2k OTB NFS .... 
+- Support Eval LaSOT, LaSOT_ext, GOT-10k, TrackingNet, UAV123, UAV20L, UAV10fps, DTB70, UAVDT, VisDrone2019, UAVTrack112, TNL2k, OTB, NFS .... 
 ```
 bash ytest.sh
 ```
